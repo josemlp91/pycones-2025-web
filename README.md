@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Web PyConEs 2025
 
 
@@ -146,3 +147,6 @@ gh pr create
 - [pre-commit](https://pre-commit.com/)
 - [Docker y Docker-Compose](https://www.docker.com/)
 - Editor de código o IDE, [Visual Studio Code](https://code.visualstudio.com/) o [WebStorm](https://www.jetbrains.com/es-es/webstorm/)
+=======
+# pycones-2025-web
+>>>>>>> 4d75137195b0d2e2c8756fa763aaf68e6c71375f
