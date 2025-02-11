@@ -1,0 +1,13 @@
+<article class="message is-dark">
+  <div class="message-header">
+    <p>{{ article.category }}</p>
+  </div>
+  <div class="message-body">
+    <div class="columns is-multiline">
+      <div class="column">
+        <h2 class="is-size-5"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+        {% if article.extract %}<p class="has-text-dark">{{ article.extract }}</p>{% endif %}
+      </div>
+    </div>
+  </div>
+</article>

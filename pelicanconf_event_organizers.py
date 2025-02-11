@@ -1,0 +1,63 @@
+# -*- coding: utf-8 -*-
+import random
+
+ORGANIZERS = [
+    {
+        "name": "Python España",
+        "logo": "/theme/images/organizers/python_espagna.png",
+        "url": "https://es.python.org/",
+    }
+]
+
+TEAM = [
+
+    {
+        "name": "Javier Alonso Silva",
+        "avatar": "/theme/images/organizers/javi.jpeg",
+        "tags": [
+            {"name": "PyLadies", "color": "is-danger"},
+            {"name": "support squad", "color": "is-info"},
+        ],
+        "position": "Ingeniero I+D en Teldat",
+        "github": "https://github.com/Javinator9889",
+        "twitter": "https://twitter.com/javinator9889",
+        "linkedin": "https://linkedin.com/in/javinator9889",
+    },
+    {
+        "name": "José Miguel López",
+        "avatar": "/theme/images/organizers/josemi.jpeg",
+        "tags": [
+            {"name": "Python Granada", "color": "is-danger"},
+            {"name": "web squad", "color": "is-info"},
+        ],
+        "position": "Ingeniero de Software",
+        "github": "https://github.com/josemlp91",
+        "twitter": "https://twitter.com/josemlp91",
+        "linkedin": "https://www.linkedin.com/in/josmilope/",
+    },
+    {
+        "name": "Jimena E. Bermúdez",
+        "avatar": "/theme/images/organizers/jimena.jpeg",
+        "tags": [
+            {"name": "PyLadies", "color": "is-danger"},
+            {"name": "publicity squad", "color": "is-info"},
+        ],
+        "position": "Ingeniera de Software",
+        "twitter": "https://twitter.com/Jimena_y_yo",
+        "linkedin": "https://www.linkedin.com/in/jimena-eb/",
+        "github": "https://github.com/JimenaEB",
+    },
+    {
+        "name": "Sara Medrano Sánchez",
+        "avatar": "/theme/images/organizers/sara.jpeg",
+        "tags": [
+            {"name": "Python Granada", "color": "is-danger"},
+            {"name": "attendes squad", "color": "is-info"},
+        ],
+        "twitter": "https://twitter.com/SrtSanz_",
+    }
+]
+
+VOLUNTEERS = []
+
+random.shuffle(TEAM)

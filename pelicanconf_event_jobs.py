@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+import random
+
+JOBS = [
+    {
+        "company_avatar": "https://dummyimage.com/25x25/fff/aaa",
+        "company_name": "Mi Arma Tech",
+        "position": "Backend Engineer (Python)",
+        "description": "Estamos en búsqueda de un Backend Engineer con experiencia en Python y Django para formar parte de nuestro equipo en una startup en pleno crecimiento enfocada en soluciones SaaS para e-commerce.",
+        "location": "España / Remoto",
+        "skills": [
+            "python",
+            "django",
+            "rest api",
+            "postgresql",
+            "docker",
+            "kubernetes",
+            "inglés intermedio",
+        ],
+        "salary": "45.000 - 65.000 €",
+        "url": "https://host/jobs/backend-engineer-python",
+        "email": "miarma@email",
+    }
+]
+
+random.shuffle(JOBS)

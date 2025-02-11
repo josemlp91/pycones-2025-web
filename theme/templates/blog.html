@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME|striptags|e }} - Blog Index {% endblock title %}
+
+
+{% block content %}
+
+{% if ENABLED_BLOG %}
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2">Publicaciones 📝 </h2>
+            {% for article in (articles_page.object_list if articles_page else articles) %}
+                {% include "_includes/blog/article_extract.html" %}
+            {% endfor %}
+        </div>
+    </section>
+{% else %}
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2">403 ⛔</h2>
+            <p>Acceso no autorizado</p>
+        </div>
+    </section>
+{% endif %}
+{% endblock content %}

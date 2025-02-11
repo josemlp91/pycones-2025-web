@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME|striptags|e }} - Gallery {% endblock title %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <h2 class="title is-2">Galería de imágenes 📷 </h2>
+        <hr>
+        {% gphotos  GOOGLE_PHOTOS_URL, GOOGLE_PHOTOS_TITLE, GOOGLE_PHOTOS_DESCRIPTION %}
+        <hr>
+        
+        <div class="column is-vcentered is-centered" style="text-align: center">
+            <a target="_blank" href="{{GOOGLE_PHOTOS_URL}}">
+                <button class="button is-medium is-orange button is-link is-dark">Ver en Google Photos</button>
+            </a>
+        </div>
+
+        <div class="box">
+            <cite>Si por alguna razón no desea aparecer en alguna de las imágenes mostrada en nuestra galería contacte con la organización y la foto será retirada.</cite>
+        </div>
+    </div>
+</section>
+{% endblock content %}

@@ -1,0 +1,27 @@
+<section class="hero is-info is-fullheight landing" style="background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),  url('{{ SITEURL }}{{ SELECTED_WALLPAPER }}') no-repeat center fixed; background-size: cover;">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="column is-6 is-offset-3">
+                <figure class="image logo">
+                    <img alt="{{ SITENAME }}" class="is-rounded" src="{{ SITEURL }}{{ MAIN_LOGO }}">
+                </figure>
+                <br>
+                <div class="transparent-black-background box">
+                    <h1 class="title">{{ EVENT_START_DATE_STR }}</h1>
+                    <div class="container">
+                        <div id="countdown">
+                            <ul>
+                                <li><span id="days"></span>días</li>
+                                <li><span id="hours"></span>horas</li>
+                                <li><span id="minutes"></span>minutos</li>
+                                <li><span id="seconds"></span>segundos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2 class="subtitle">El mayor evento dedicado a Python de España, llega a Granada</h2>
+                </div>
+                {% include "_includes/index/newsletter_form.html" %}
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,70 @@
+# -*- coding: utf-8 -*-
+import random
+
+SPONSORS = [
+    {
+        "level_name": "keystone",
+        "title": "Keystone 🏆",
+        "size": "270px",
+        "size_schedule": "500px",
+        "order": 1,
+        "members": [
+            {
+                "name": "PSF",
+                "photo": "/theme/images/sponsors/psf.png",
+                "url": "https://www.python.org/psf/",
+            },
+            {
+                "name": "Euro Python",
+                "photo": "/theme/images/sponsors/europython.png",
+                "url": "https://www.europython-society.org/",
+            },
+        ],
+    },
+    {
+        "level_name": "diamond",
+        "title": "Diamante 💎",
+        "size": "250px",
+        "size_schedule": "400px",
+        "order": 2,
+        "members": [
+        ],
+    },
+    {
+        "level_name": "platinum",
+        "title": "Platino 💽",
+        "size": "210px",
+        "size_schedule": "200px",
+        "order": 3,
+        "members": [
+        ],
+    },
+    {
+        "level_name": "gold",
+        "title": "Oro 📀",
+        "size": "180px",
+        "size_schedule": "200px",
+        "order": 4,
+        "members": [
+        ],
+    },
+    {
+        "level_name": "silver",
+        "title": "Plata 💿",
+        "size": "150px",
+        "order": 5,
+        "members": [
+        ],
+    },
+    {
+        "level_name": "friend",
+        "title": "Colaboran 💡",
+        "size": "150px",
+        "order": 6,
+        "members": [
+        ],
+    },
+]
+
+for s in SPONSORS:
+    random.shuffle(s["members"])

@@ -1,0 +1,43 @@
+<section class="hero is-primary is-medium header-image" >
+    <div class="hero-head">
+        <nav class="navbar is-primary is-fixed-top">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item logo" href="{{ SITEURL }}/">
+                        <img src="{{ SITEURL }}{{ THEME_LOGO }}" alt="Python Granada Logo">
+                        <span style="padding-left: 5px">Inicio</span>
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"  data-target="navbarMenuHeroA">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="navbarMenuHeroA" class="navbar-menu">
+                    <div class="navbar-end">
+                        {% for item, link in MENUITEMS_NAVBAR.items() %}
+                            {% if link is string %}
+                        <a class="navbar-item" href="{{ SITEURL }}{{ link }}">
+                            {{ item }}
+                        </a>
+                            {% elif link is mapping %}
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                {{ item }}
+                            </a>
+                            <div class="navbar-dropdown">
+                            {% for subitem, url in link.items() %}
+                                <a class="navbar-item" href="{{ SITEURL }}{{ url }}">
+                                    {{ subitem }}
+                                </a>
+                            {% endfor %}
+                            </div>
+                        </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</section>

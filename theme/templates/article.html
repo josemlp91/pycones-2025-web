@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ article.title|striptags|e }} {% if article.subtitle %} - {{ article.subtitle|striptags|e }} {% endif %} - {{ super() }}
+{% endblock title %}
+
+{% block content %}
+    {% if ENABLED_BLOG %}
+        <section class="section">
+            <div class="container">
+                <article class="message is-info">
+                    <div class="message-header">
+                        <h2>{{ article.title }}</h2>
+                    </div>
+                    <div class="message-body has-text-dark markdown">
+                        {{ article.content }}
+                    </div>
+                </article>
+            </div>
+        </section>
+    {% else %}
+        <section class="section">
+            <div class="container">
+                <h2 class="title is-2">403 ⛔</h2>
+                <p>Acceso no autorizado</p>
+            </div>
+        </section>
+    {% endif %}
+{% endblock content %}

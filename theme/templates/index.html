@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME|striptags|e }} - Index {% endblock title %}
+
+
+{% block extra_css %}
+	{% if LANDING_MODE %}
+		<link rel="stylesheet" href="{{ SITEURL }}/theme/css/landing.css">
+	{% endif %}
+{% endblock extra_css %}
+
+{% block extra_script %}
+	{% if LANDING_MODE %}
+		<script type="text/javascript" src="https://app.mailjet.com/statics/js/iframeResizer.min.js"></script>
+		<script src="{{ SITEURL }}/theme/js/landing.js"></script>
+	{% endif %}
+{% endblock extra_script %}
+
+
+{% block navbar %}
+	{% if not LANDING_MODE %}
+		{% include "_includes/navbar.html" %}
+	{% endif %}
+{% endblock navbar %}
+
+{% block content %}
+
+	{% if LANDING_MODE %}
+		{% include "_includes/index/landing.html" %}
+	{% else %}
+		<section class="section" id="cover-section">
+			<div class="container" id="cover-container">
+				{% include "_includes/index/cover.html" %}
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				{% if ENABLED_KEYNOTERS %}
+					{% include "_includes/index/keynoters.html" %}
+				{% endif %}
+
+				{% if ENABLED_CALL_FOR_PAPERS %}
+					{% include "_includes/index/call_for_papers.html" %}
+				{% endif %}
+
+				{% if ENABLED_TWITTER %}
+					{% include "_includes/index/twitter.html" %}
+				{% endif %}
+
+				{% if ENABLED_SCHEDULE_INFO %}
+					{% include "_includes/index/schedule.html" %}
+				{% endif %}
+
+				{% if ENABLED_TICKETS %}
+					{% include "_includes/index/buy_your_tickets.html" %}
+				{% endif %}
+
+				{% if ENABLED_BLOG %}
+					{% include "_includes/index/highlight_blog.html" %}
+				{% endif %}
+
+				{% if ENABLED_TIMELINE %}
+					{% include "_includes/index/timeline.html" %}
+				{% endif %}
+
+				{% if ENABLED_LOCATION %}
+					{% include "_includes/index/location.html" %}
+				{% endif %}
+
+				{% if ENABLED_CALL_FOR_SPONSORS %}
+					{% include "_includes/index/call_for_sponsors.html" %}
+				{% endif %}
+
+				{% if ENABLED_SPONSORSHIPS %}
+					{% include "_includes/index/sponsorship.html" %}
+				{% endif %}
+			</div>
+		</section>
+	{% endif %}
+{% endblock content %}
+
+
+{% block footer %}
+	{% if not LANDING_MODE %}
+		{% include "_includes/footer.html" %}
+	{% endif %}
+{% endblock footer %}

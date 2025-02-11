@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME|striptags|e }} - Organizers {% endblock title %}
+
+
+{% block content %}
+
+<section class="section">
+    <div class="container">
+        <h2 class="title is-2">Organización 🧑🏽‍💻</h2>
+        <hr>
+        <div class="grid-container" style="grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));">
+            {% for organizer in ORGANIZERS %}
+            <div class="card">
+                <div class="card-image" style="text-align: center">
+                    <a href="{{ organizer.url }}" target="_blank">
+                        <figure class="image is-4by3">
+                            <img src="{{SITEURL}}{{ organizer.logo }}" alt="{{ organizer.name }}">
+                        </figure>
+                    </a>
+                    <footer class="card-footer">
+                        <p >{{ organizer.name }}</p>
+                    </footer>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <hr>
+        {% if ENABLED_TEAM %}
+            {% include "_includes/team.html" %}
+            <br>
+            {% include "_includes/volunteers.html" %}
+        {% endif %}
+    </div>
+</section>
+
+{% endblock content %}
