@@ -1,8 +1,6 @@
 # Web PyConEs 2025
 
 
-![](https://github.com/PythonGranada/pycones-grx/actions/workflows/deploy.yml/badge.svg)
-
 ### Creador de contenidos o editor ✍️
 
 Aquí no necesitas tener grandes conocimientos técnicos, solo necesitamos creatividad.
