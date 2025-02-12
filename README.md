@@ -109,11 +109,11 @@ La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (c
 1. Crea un fork de este repositorio en tu cuenta personal de GitHub.
 2. Puedes visualizar tu clone de la web, si habilitas la opción ghpages en la rama ``gh-pages``.
 
-![](https://github.com/PythonGranada/pycones-grx/blob/main/readme_images/ghpages.png?raw=true)
+![](https://github.com/python-sevilla/pycones-2025-web/blob/main/readme_images/ghpages.png?raw=true)
 
 3. Para que se visualice correctamente debes crear un ``environment secret`` llamado ``SITEURL`` con la url completa de tu copia del sitio web.
 
-![](https://github.com/PythonGranada/pycones-grx/blob/main/readme_images/environ.png?raw=true)
+![](https://github.com/python-sevilla/pycones-2025-web/blob/main/readme_images/environ.png?raw=true)
 
 4. Realiza tus aportaciones, añade los cambios, siempre con un mensaje de commit descriptivo y a poder ser en Inglés.
 5. Crea un ``Pull Request`` a este mismo repositorio, asegúrate primero de hacer ``Fetch upstream`` y no tener conflictos con el repositorio principal.
@@ -123,7 +123,7 @@ La web cuenta con un sistema de despliegue continuo, de forma que cada cambio (c
 
 ```bash
 # Haces fork del repositorio y clone localmente.
-gh repo fork git@github.com:PythonGranada/pycones-grx.git
+gh repo fork git@github.com:python-sevilla/pycones-2025-web.git
 
 # Actualizamos fork con cambios en repositorio principal.
 git pull upstream main
