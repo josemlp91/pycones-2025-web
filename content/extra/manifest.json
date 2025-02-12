@@ -4,8 +4,8 @@
     "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
-    "name": "PyConES GRX",
-    "short_name": "PyConES GRX",
+    "name": "PyConES Sevilla 2025",
+    "short_name": "PyConES Sevilla 2025",
     "icons": [
         {
             "src": "/theme/images/icons/icon-192x192.png",
