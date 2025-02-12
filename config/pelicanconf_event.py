@@ -5,17 +5,12 @@ def load_json_from_data(filename):
     with open(f"./data/{filename}", "r", encoding="utf-8") as file:
         return json.load(file)
 
-print("1")
+
 JOBS = load_json_from_data("jobs.json")
-print("2")
 TEAM = load_json_from_data("team.json")
-print("3")
 VOLUNTEERS = load_json_from_data("volunteers.json")
-print("4")
 PAST_EDITIONS = load_json_from_data("past_editions.json")
-print("5")
 SPONSORS = load_json_from_data("sponsors.json")
-print("6")
 KEYNOTERS = load_json_from_data("keynoters.json")
 
 
@@ -62,18 +57,8 @@ WALLPAPERS = [
 
 SELECTED_WALLPAPER = random.choice(WALLPAPERS)
 
-EVENT_TRACKS = json.dumps(
-    [
-        {"id": "core", "title": "Track Core"},
-        {"id": "data", "title": "Track Data", "eventColor": "green"},
-        {"id": "web", "title": "Track Web", "eventColor": "orange"},
-    ]
-)
-
-EVENT_START_DATE = "2025-10-17"
 EVENT_START_DATE_STR = "Del 17 de Octubre"
 EVENT_END_DATE_STR = "Al 19 de Octubre"
-EVENT_TALKS = json.dumps([])
 
 EVENT_WARNINGS = [
     {

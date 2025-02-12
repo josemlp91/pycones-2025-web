@@ -13,16 +13,13 @@ PLUGIN_PATHS = ["plugins"]
 TIMEZONE = "Europe/Madrid"
 DEFAULT_LANG = "es"
 DEFAULT_DATE_FORMAT = "%d/%M/%Y"
-
 MARKUP = ("md",)
-
-PLUGINS = ["i18n_subsites", "assets", "events"]
+PLUGINS = ["i18n_subsites", "assets"]
 STATIC_PATHS = ["images", "extra/manifest.json"]
 JINJA_ENVIRONMENT = {
     "extensions": ["jinja2.ext.i18n", "extensions.gphotos.GPhotosExtension"],
 }
 
-EVENTS_ICS_FNAME = "calendar.ics"
 
 DIRECT_TEMPLATES = [
     "index",
@@ -35,6 +32,7 @@ DIRECT_TEMPLATES = [
     "organizers",
     "jobs",
 ]
+
 MENUITEMS_NAVBAR = {
     "La ciudad": {"Sevilla": "/pages/sevilla.html"},
     "Organización": {"Equipo": "/organizers.html"},
