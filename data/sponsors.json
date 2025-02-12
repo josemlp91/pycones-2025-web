@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-import random
-
-SPONSORS = [
+[
     {
         "level_name": "keystone",
         "title": "Keystone 🏆",
@@ -12,14 +9,14 @@ SPONSORS = [
             {
                 "name": "PSF",
                 "photo": "/theme/images/sponsors/psf.png",
-                "url": "https://www.python.org/psf/",
+                "url": "https://www.python.org/psf/"
             },
             {
                 "name": "Euro Python",
                 "photo": "/theme/images/sponsors/europython.png",
-                "url": "https://www.europython-society.org/",
-            },
-        ],
+                "url": "https://www.europython-society.org/"
+            }
+        ]
     },
     {
         "level_name": "diamond",
@@ -28,7 +25,7 @@ SPONSORS = [
         "size_schedule": "400px",
         "order": 2,
         "members": [
-        ],
+        ]
     },
     {
         "level_name": "platinum",
@@ -37,7 +34,7 @@ SPONSORS = [
         "size_schedule": "200px",
         "order": 3,
         "members": [
-        ],
+        ]
     },
     {
         "level_name": "gold",
@@ -46,7 +43,7 @@ SPONSORS = [
         "size_schedule": "200px",
         "order": 4,
         "members": [
-        ],
+        ]
     },
     {
         "level_name": "silver",
@@ -54,7 +51,7 @@ SPONSORS = [
         "size": "150px",
         "order": 5,
         "members": [
-        ],
+        ]
     },
     {
         "level_name": "friend",
@@ -62,9 +59,6 @@ SPONSORS = [
         "size": "150px",
         "order": 6,
         "members": [
-        ],
-    },
+        ]
+    }
 ]
-
-for s in SPONSORS:
-    random.shuffle(s["members"])

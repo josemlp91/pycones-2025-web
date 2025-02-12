@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Lucía Pérez",
+        "photo_big": "https://dummyimage.com/1280x720/fff/aaa",
+        "url": "/pages/lucia.html",
+        "twitter": "@lupereztech",
+        "description": "La Revolución Digital: Explorando la Inteligencia Artificial en el futuro de las ciudades. Una charla que se sumerge en las redes invisibles que nos conectan."
+    },
+    {
+        "name": "Carlos Gómez",
+        "photo_big": "https://dummyimage.com/1280x720/fff/aaa",
+        "url": "/pages/carlos.html",
+        "twitter": "@carlosg_tech",
+        "description": "Especialista en tecnologías emergentes y automatización de procesos desde 2010, con un enfoque en soluciones sostenibles y escalables."
+    }
+]

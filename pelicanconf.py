@@ -1,15 +1,13 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import sys
 import os
 
 sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(os.path.abspath("config"))
 
 
-from pelicanconf_common import *
-from pelicanconf_event import *
-from pelicanconf_flags import *
+from config.pelicanconf_common import *
+from config.pelicanconf_event import *
+from config.pelicanconf_flags import *
 
 
 SITEURL = os.getenv('SITEURL', '')

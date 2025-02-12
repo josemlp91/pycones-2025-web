@@ -1,18 +1,22 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import json
 import random
-import os
-import sys
 
-sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+def load_json_from_data(filename):
+    with open(f"./data/{filename}", "r", encoding="utf-8") as file:
+        return json.load(file)
 
-from pelicanconf_event_jobs import *
-from pelicanconf_event_organizers import *
-from pelicanconf_event_past_editions import *
-from pelicanconf_event_sponsors import *
-from pelicanconf_event_keynoters import *
+print("1")
+JOBS = load_json_from_data("jobs.json")
+print("2")
+TEAM = load_json_from_data("team.json")
+print("3")
+VOLUNTEERS = load_json_from_data("volunteers.json")
+print("4")
+PAST_EDITIONS = load_json_from_data("past_editions.json")
+print("5")
+SPONSORS = load_json_from_data("sponsors.json")
+print("6")
+KEYNOTERS = load_json_from_data("keynoters.json")
 
 
 EVENT_TITLE = "PyConES 2025"

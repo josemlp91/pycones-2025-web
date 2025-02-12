@@ -1,10 +1,7 @@
-# -*- coding: utf-8 -*-
-import random
-
-JOBS = [
+[
     {
         "company_avatar": "https://dummyimage.com/25x25/fff/aaa",
-        "company_name": "Mi Arma Tech",
+        "company_name": "Mi Arma Tech LALALA",
         "position": "Backend Engineer (Python)",
         "description": "Estamos en búsqueda de un Backend Engineer con experiencia en Python y Django para formar parte de nuestro equipo en una startup en pleno crecimiento enfocada en soluciones SaaS para e-commerce.",
         "location": "España / Remoto",
@@ -15,12 +12,10 @@ JOBS = [
             "postgresql",
             "docker",
             "kubernetes",
-            "inglés intermedio",
+            "inglés intermedio"
         ],
         "salary": "45.000 - 65.000 €",
         "url": "https://host/jobs/backend-engineer-python",
-        "email": "miarma@email",
+        "email": "miarma@email"
     }
 ]
-
-random.shuffle(JOBS)

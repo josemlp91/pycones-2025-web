@@ -1,12 +1,6 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from datetime import datetime
-import sys
-import os
 import pytz
 
-sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 
 from pelicanconf_flags import *
 
