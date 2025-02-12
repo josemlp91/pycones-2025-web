@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 
 # Flags, generales; permiten habilitar y deshabilitar funcionalidades de la web,
 # según evolucione la organización del evento.

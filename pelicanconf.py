@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import sys
 import os
 
@@ -10,5 +11,5 @@ from config.pelicanconf_event import *
 from config.pelicanconf_flags import *
 
 
-SITEURL = os.getenv('SITEURL', '')
-GOOGLE_ANALYTICS_CODE = os.getenv('GOOGLE_ANALYTICS_CODE', '0000')
+SITEURL = os.getenv("SITEURL", "")
+GOOGLE_ANALYTICS_CODE = os.getenv("GOOGLE_ANALYTICS_CODE", "0000")

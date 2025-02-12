@@ -6,4 +6,3 @@ Extract: Aquí publicaremos todas las novedades que necesitarás conocer para di
 
 
 Aquí publicaremos todas las novedades que necesitarás conocer para disfrutar al 100% de la conferencia. Permanece atento a nuestras publicaciones, pues aquí vamos a presentar las novedades y anuncios sobre la agenda de la conferencia, las ayudas y becas de esta edición, adicionalmente a la información sobre la venta de entradas.
-

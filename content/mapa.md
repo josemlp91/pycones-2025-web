@@ -7,4 +7,3 @@ Highlight: True
 
 Acá puedes encontrar un mapa de los edificios donde se realizará
 la conferencia:
-

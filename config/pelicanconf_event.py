@@ -1,5 +1,7 @@
+# -*- coding: utf-8 -*-
 import json
 import random
+
 
 def load_json_from_data(filename):
     with open(f"./data/{filename}", "r", encoding="utf-8") as file:
@@ -37,7 +39,9 @@ SPONSORS_DOSSIER_ES = "/theme/files/dosier_patrocinio_2025_es.pdf"
 SPONSORS_DOSSIER_EN = "/theme/files/dosier_patrocinio_2025_en.pdf"
 
 # https://google-map-generator.com/
-MAP_IFRAME_LINK = "https://maps.google.com/maps?q=Sevilla&t=&z=17&ie=UTF8&iwloc=&output=embed"
+MAP_IFRAME_LINK = (
+    "https://maps.google.com/maps?q=Sevilla&t=&z=17&ie=UTF8&iwloc=&output=embed"
+)
 
 # https://cookie-bar.eu/
 COOKIES_SCRIPT = "https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=es&theme=altblack&tracking=1&thirdparty=1&always=1&refreshPage=1&showNoConsent=1"
@@ -51,9 +55,7 @@ GOOGLE_PHOTOS_TITLE = "PyCon ES 2025"
 GOOGLE_PHOTOS_DESCRIPTION = "PyCon ES 2025"
 
 
-WALLPAPERS = [
-    "/theme/images/wallpapers/lamparas_arabes.webp"
-]
+WALLPAPERS = ["/theme/images/wallpapers/lamparas_arabes.webp"]
 
 SELECTED_WALLPAPER = random.choice(WALLPAPERS)
 
@@ -62,7 +64,7 @@ EVENT_END_DATE_STR = "Al 19 de Octubre"
 
 EVENT_WARNINGS = [
     {
-       "message": "En construcción 🛠️",
-       "color": "is-danger",  # "is-warning, is-success, is-danger,  is-info"
+        "message": "En construcción 🛠️",
+        "color": "is-danger",  # "is-warning, is-success, is-danger,  is-info"
     }
 ]
