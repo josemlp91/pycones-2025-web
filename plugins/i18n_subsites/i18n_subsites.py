@@ -238,7 +238,7 @@ class GeneratorInspector(object):
         translations_iterator = chain(*self.translations_lists())
         return chain(
             translations_iterator,
-            *(pair[i] for pair in self.contents_list_pairs() for i in (0, 1))
+            *(pair[i] for pair in self.contents_list_pairs() for i in (0, 1)),
         )
 
 
