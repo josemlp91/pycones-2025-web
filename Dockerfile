@@ -21,7 +21,5 @@ WORKDIR /app
 COPY uv.lock pyproject.toml /app/
 RUN uv sync --frozen --no-cache --no-dev
 
-RUN uv pip list | grep pelican
-
 
 CMD ["uv", "run", "python","-m", "pelican", "-lr", "/app/content", "-o", "/app/output", "-s", "/app/pelicanconf.py", "-p", "8000", "-b", "0.0.0.0"]
