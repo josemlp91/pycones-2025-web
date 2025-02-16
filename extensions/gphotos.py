@@ -8,6 +8,9 @@ import pathlib
 import requests
 import random
 import re
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class GPhotosExtension(StandaloneTag):
@@ -31,7 +34,12 @@ class GPhotosExtension(StandaloneTag):
 
     @staticmethod
     def get_photos(url):
-        html_doc = requests.get(url)
+        try:
+            html_doc = requests.get(url)
+        except Exception:
+            logger.error(f"Error google photos http request {url}")
+            return []
+
         soup = BeautifulSoup(html_doc.text, "html.parser")
         dom = etree.HTML(str(soup))
 

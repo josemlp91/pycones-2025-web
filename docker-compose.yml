@@ -3,10 +3,13 @@ services:
   pelican-sitebuilder:
     build:
       context: .
-      dockerfile: compose/Dockerfile
+      dockerfile: Dockerfile
     ports:
       - "8080:8000"
     volumes:
-      - .:/project-root
+      - .:/app
     environment:
       - CONFFILE=pelicanconf.py
+      - SITEURL=http://localhost:8080
+    stdin_open: true
+    tty: true
