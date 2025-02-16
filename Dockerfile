@@ -9,14 +9,12 @@ EXPOSE $PORT
 
 # Install node via instructions at https://github.com/nodesource/distributions
 RUN apt-get update \
-    && apt-get install --no-install-recommends -qy git curl bash ca-certificates gnupg libxml2-dev libxslt-dev build-essential
+    && apt-get install --no-install-recommends -qy git curl bash ca-certificates gnupg libxml2-dev libxslt-dev build-essential unzip
 
-RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
-    && apt install -y nodejs \
-    && apt clean && rm -rf /var/lib/apt/lists/*
+RUN curl -fsSL https://bun.sh/install | bash
+RUN apt clean && rm -rf /var/lib/apt/lists/*
 
-RUN curl -LsSf https://astral.sh/uv/install.sh | sh && \
-    mv ~/.local/bin/uv /usr/local/bin/uv
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 WORKDIR /app
 
