@@ -10,6 +10,5 @@ from config.pelicanconf_common import *
 from config.pelicanconf_event import *
 from config.pelicanconf_flags import *
 
-
-SITEURL = os.getenv("SITEURL", "")
+SITEURL = os.getenv("SITEURL")
 GOOGLE_ANALYTICS_CODE = os.getenv("GOOGLE_ANALYTICS_CODE", "0000")
