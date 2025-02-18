@@ -38,7 +38,7 @@ MENUITEMS_NAVBAR = {
     "La ciudad": {"Sevilla": "/pages/sevilla.html"},
     "Organización": {"Equipo": "/organizers.html"},
     "Código de Conducta": "/pages/code-of-conduct.html",
-    "Mapa": "/mapa.html",
+    "Mapa": "/pages/mapa.html",
 }
 
 if ENABLED_SPEAKERS:

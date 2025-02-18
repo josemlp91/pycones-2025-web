@@ -20,10 +20,9 @@ EVENT_TITLE = "PyConES 2025"
 EVENT_SUBTITLE = "Sevilla"
 EVENT_DESCRIPTION_MINI = "PyConES, la conferencia de Python más importante de España"
 EVENT_DESCRIPTION = """
-Os damos la bienvenida a la PyConES, la conferencia de Python más importante de España.<br><br>
-Un evento que reunirá a cientos de entusiastas de Python, una agenda increíble y unas oportunidades de trabajo
-maravillosas. <br><br>
-También puedes formar parte de nuestros patrocinadores y tener tu espacio dentro del evento.
+¡Bienvenidos a PyConES, la conferencia de Python más importante de España! <br><br>
+Únete a cientos de apasionados de Python en un evento único, con una agenda increíble, oportunidades profesionales excepcionales y un ambiente inmejorable. <br><br>
+Si quieres llevar tu empresa al siguiente nivel, conviértete en patrocinador y consigue visibilidad exclusiva dentro del evento. ¡Te esperamos!
 """
 
 TWITTER_USERNAME = "pycones"
@@ -55,7 +54,27 @@ GOOGLE_PHOTOS_TITLE = "PyCon ES 2025"
 GOOGLE_PHOTOS_DESCRIPTION = "PyCon ES 2025"
 
 
-WALLPAPERS = ["/theme/images/wallpapers/lamparas_arabes.webp"]
+WALLPAPERS = [
+    "/theme/images/wallpapers/arco_2.webp",
+    "/theme/images/wallpapers/azulejos_2.webp",
+    "/theme/images/wallpapers/fuente.webp",
+    "/theme/images/wallpapers/mosaico_2.webp",
+    "/theme/images/wallpapers/puente_centenario.webp",
+    "/theme/images/wallpapers/setas_3.webp",
+    "/theme/images/wallpapers/triana.webp",
+    "/theme/images/wallpapers/arcos_arabes.webp",
+    "/theme/images/wallpapers/campana.webp",
+    "/theme/images/wallpapers/giralda.webp",
+    "/theme/images/wallpapers/mosaico_3.webp",
+    "/theme/images/wallpapers/setas_1.webp",
+    "/theme/images/wallpapers/termas.webp",
+    "/theme/images/wallpapers/azulejos_1.webp",
+    "/theme/images/wallpapers/catedral.webp",
+    "/theme/images/wallpapers/mosaico_1.webp",
+    "/theme/images/wallpapers/plaza_espana.webp",
+    "/theme/images/wallpapers/setas_2.webp",
+    "/theme/images/wallpapers/torre_giralda.webp",
+]
 
 SELECTED_WALLPAPER = random.choice(WALLPAPERS)
 
@@ -63,8 +82,8 @@ EVENT_START_DATE_STR = "Del 17 de Octubre"
 EVENT_END_DATE_STR = "Al 19 de Octubre"
 
 EVENT_WARNINGS = [
-    {
-        "message": "En construcción 🛠️",
-        "color": "is-danger",  # "is-warning, is-success, is-danger,  is-info"
-    }
+    # {
+    #     "message": "En construcción 🛠️",
+    #     "color": "is-danger",  # "is-warning, is-success, is-danger,  is-info"
+    # }
 ]

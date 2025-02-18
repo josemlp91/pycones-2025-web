@@ -14,13 +14,13 @@ ENABLED_TICKETS = False
 ENABLED_CALL_FOR_PAPERS = False
 
 # Habilita bloque que muestra los oradores plenarios del evento.
-ENABLED_KEYNOTERS = True
+ENABLED_KEYNOTERS = False
 
 # Habilita pantalla de ponentes
 ENABLED_SPEAKERS = False
 
 # Habilita bloque con todos los patrocinadores.
-ENABLED_SPONSORSHIPS = True
+ENABLED_SPONSORSHIPS = False
 
 # Habilita las becas en el menú principal
 ENABLED_FINANCIAL_AID = False
@@ -29,13 +29,13 @@ ENABLED_FINANCIAL_AID = False
 ENABLED_CALL_FOR_SPONSORS = False
 
 # Habilita la vista del calendario del evento.
-ENABLED_TIMETABLE = True
+ENABLED_TIMETABLE = False
 
 # Habilita la funcionalidad de blog de contenidos de la web.
-ENABLED_BLOG = True
+ENABLED_BLOG = False
 
 # Habilita galería de imágenes en Google Photos
-ENABLED_GALLERY = True
+ENABLED_GALLERY = False
 
 # Mostrar información del equipo
 ENABLED_TEAM = True
@@ -56,4 +56,4 @@ ENABLED_JOBS = True
 ENABLED_SCHEDULE_INFO = True
 
 # Habilita sección con la información de Twitter
-ENABLED_TWITTER = True
+ENABLED_TWITTER = False
