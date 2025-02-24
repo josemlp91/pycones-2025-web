@@ -30,7 +30,6 @@ Divido los directorios en tres **categorías**.
 Y tendríamos los siguientes directorios:
 
 - **.github** (infra) Aquí se definen las cosas referentes a la integración continua, (mejor no tocarlo mucho xD)
-- **compose** (infra) Aquí se definen los manifiestos Docker, que preparan todo lo necesario para que funcione en tu localhost.
 - **content** (content) Aquí se alojan los artículos y publicaciones en formato Markdown.
 - **plugins** (code) Plugins de Pelican.
 - **themes** (ui/ux) Código HTML y CSS que pone bonita la web.
@@ -54,29 +53,18 @@ Accede con tu navegador a la url [localhost:8080](http://localhost:8080)
 
 #### Python & Virtualenv 🐍
 
-Debes tener instalado Python >= 3.6 y [virtualenv](https://virtualenv.pypa.io/en/latest/) y seguir los siguientes pasos:
+Debes tener instalado Python >= 3.12 y [uv](https://github.com/astral-sh/uv?tab=readme-ov-file#installation) y seguir los siguientes pasos:
 
-1. Crear un virtualenv propio para este proyecto y activarlo
-
-```bash
-virtualenv venv
-source ./venv/bin/activate
-```
-
-2. Instalar las dependencias Python necesarias
+1. Instalar dependencias en un virtualenv gestionado por uv
 
 ```bash
-pip install -r requirements.txt
+uv sync --dev
 ```
+
+
 
 3. Iniciar el servidor web en local con el script o con make indicando de forma opcional el puerto deseado (por defecto 8000)
 
-- Opción 1
-```bash
-./develop_server.sh start {PORT}
-```
-
-- Opción 2
 ```bash
  make devserver PORT={PORT}
 ```
@@ -135,6 +123,8 @@ git push
 # Creamos pull request con nuestros cambios
 gh pr create
 ```
+
+*** En caso de tener permisos directamente al repo, tambien se puede contribuir generando una PR directamente con una rama del proyecto, y saltando los pasos de crear un fork.
 
 ### Herramientas para desarrollar
 
