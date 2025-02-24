@@ -67,8 +67,8 @@ if ENABLED_BLOG:
 
 
 NAVBAR_STYLE = "is-primary"
-THEME_LOGO = "/theme/images/navbar.png"  # navbar
-MAIN_LOGO = "/theme/images/pycones_sevilla.png"  # logo principal
+THEME_LOGO = "/theme/images/logos/ICONO_ORIGINAL.png"  # navbar
+MAIN_LOGO = "/theme/images/logos/PYCONES_CORTADO.png"  # logo principal
 MAIN_LOGO_PNG = (
     "/theme/images/pycones_sevilla.png"  # logo que se muestra en redes sociales
 )

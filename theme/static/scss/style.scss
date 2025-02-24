@@ -1,20 +1,33 @@
 @charset "utf-8";
 
-$primary: #E6B012;
-$info: #AD033B;
-$link: #CFBA64;
-$success: #65A1AB;
-$warning: #9D2F15;
-$danger: #9D2F15;
+// PALETA COLORES
+$pycon-grey: #B7B7B7;
+$pycon-beige: #EEE9D7;
+$pycon-dark-blue: #03004B;
+$pycon-red: #AB2200;
+$pycon-green: #01AD7E;
+$pychon-yellow: #D2B954;
 
-$primary-from-logo: #ffffff;
-$secondary-from-logo: #2e6f40;
+$pycon-dark-blue-hover: #05007A;
+$pycon-red-hover: #871B00;
+$pycon-green-hover: #018A65;
+$pychon-yellow-hover: #B89E45;
 
-$dark--medium: #21580b;
+///
+
+$primary: $pycon-green;
+$primary-hover: $pycon-green-hover;
+
+$info: $pychon-yellow;
+$link: $pycon-red;
+$success:  $pycon-green;
+$warning: $pychon-yellow;
+$danger: $pycon-red;
+
 
 $grey--ligth:#f8f6f6;
 $grey--medium: #e5e0de;
-$burgundy: #a8820e;
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat&display=swap');
@@ -48,7 +61,7 @@ $burgundy: #a8820e;
   background-color: $primary !important;
 }
 .navbar-item:hover {
-  background-color: $burgundy !important;
+  background-color: $primary-hover !important;
 }
 
 .navbar-dropdown {

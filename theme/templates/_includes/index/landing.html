@@ -1,13 +1,15 @@
 <section class="hero is-info is-fullheight landing" style="background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.3)),  url('{{ SITEURL }}{{ SELECTED_WALLPAPER }}') no-repeat center fixed; background-size: cover;">
     <div class="hero-body">
         <div class="container has-text-centered">
-            <div class="column is-6 is-offset-3">
-                <figure class="image logo">
-                    <img alt="{{ SITENAME }}" class="is-rounded" src="{{ SITEURL }}{{ MAIN_LOGO }}">
+            <div class="column">
+                <figure class="image logo" style="background-color: rgba(147,147,147,0.6);">
+                    <img alt="{{ SITENAME }}" src="theme/images/logos/PYCONES_ORIGINAL_AZUL.png" style="padding: 3rem;">
                 </figure>
                 <br>
                 <div class="transparent-black-background box">
                     <h1 class="title">{{ EVENT_START_DATE_STR }}</h1>
+                    <h1 class="title">hasta</h1>
+                    <h1 class="title">{{ EVENT_END_DATE_STR }}</h1>
                     <div class="container">
                         <div id="countdown">
                             <ul>
@@ -18,9 +20,36 @@
                             </ul>
                         </div>
                     </div>
-                    <h2 class="subtitle">El mayor evento dedicado a Python de España, llega a Granada</h2>
+                    <h2 class="subtitle">El mayor evento dedicado a Python en España, llega a Sevilla</h2>
                 </div>
                 {% include "_includes/index/newsletter_form.html" %}
+
+                  <!-- Icon Buttons -->
+                  <a class="button is-medium is-instagram">
+                    <span class="icon">
+                      <i class="fab fa-instagram fa-lg"></i>
+                    </span>
+                  </a>
+                  <a class="button is-medium is-github">
+                    <span class="icon">
+                      <i class="fab fa-github fa-lg"></i>
+                    </span>
+                  </a>
+                  <a class="button is-medium is-discord">
+                    <span class="icon">
+                      <i class="fab fa-discord fa-lg"></i>
+                    </span>
+                  </a>
+                  <a class="button is-medium is-youtube">
+                    <span class="icon">
+                      <i class="fab fa-youtube fa-lg"></i>
+                    </span>
+                  </a>
+                  <a class="button is-medium is-mastodon">
+                    <span class="icon">
+                      <i class="fab fa-mastodon fa-lg"></i>
+                    </span>
+                  </a>
             </div>
         </div>
     </div>
