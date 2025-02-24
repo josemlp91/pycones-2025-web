@@ -25,12 +25,15 @@ EVENT_DESCRIPTION = """
 Si quieres llevar tu empresa al siguiente nivel, conviértete en patrocinador y consigue visibilidad exclusiva dentro del evento. ¡Te esperamos!
 """
 
-TWITTER_USERNAME = "pycones"
-TWITTER_LINK = f"https://twitter.com/{TWITTER_USERNAME}"
+TWITTER_LINK = "https://x.com/PyConEs"
 YOUTUBE_LINK = "https://www.youtube.com/PythonEspa%C3%B1aOficial"
 GITHUB_LINK = "https://github.com/python-spain"
 EMAIL_LINK = "mailto:contacto@2025.es.pycon.org"
+LINKEND_LINK = "https://es.linkedin.com/company/python-espa%C3%B1a?trk=public_post_feed-actor-name"
 TELEGRAM_LINK = None
+INSTAGRAM_LINK = "https://www.instagram.com/pycon_es/"
+BLUESKY = None
+MASTODON_LINK = "https://fosstodon.org/@pycones"
 
 TICKETS_LINK = "https://pycones2025.eventbrite.es"
 CALL_FOR_PAPERS_LINK = "https://charlas.2025.es.pycon.org/pycones2022/cfp"
