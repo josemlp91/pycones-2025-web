@@ -69,9 +69,7 @@ if ENABLED_BLOG:
 NAVBAR_STYLE = "is-primary"
 THEME_LOGO = "/theme/images/logos/ICONO_ORIGINAL.png"  # navbar
 MAIN_LOGO = "/theme/images/logos/PYCONES_CORTADO.png"  # logo principal
-MAIN_LOGO_PNG = (
-    "/theme/images/pycones_sevilla.png"  # logo que se muestra en redes sociales
-)
+MAIN_LOGO_PNG = "/theme/images/logos/PYCONES_ORIGINAL_AZUL.png"  # logo que se muestra en redes sociales
 
 
 FOOTER = "Copyright © Python España & PyConES 2025 Org"
