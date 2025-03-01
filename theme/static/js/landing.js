@@ -4,40 +4,29 @@
         hour = minute * 60,
         day = hour * 24;
 
-    //I'm adding this section so I don't have to keep updating this pen every year :-)
-    //remove this if you don't need it
+    // Definir la fecha objetivo para el 17 de octubre de este año
     let today = new Date(),
-        dd = String(today.getDate()).padStart(2, "0"),
-        mm = String(today.getMonth() + 1).padStart(2, "0"),
-        yyyy = today.getFullYear(),
-        nextYear = yyyy + 1,
-        dayMonth = "10/01/",
-        pyconesDate = dayMonth + yyyy;
+        yyyy = today.getFullYear();
 
-    today = mm + "/" + dd + "/" + yyyy;
-    if (today > pyconesDate) {
-        pyconesDate = dayMonth + nextYear;
-    }
-    //end
+    const eventDate = new Date(`${yyyy}-10-17T00:00:00`);
 
-    const countDown = new Date(pyconesDate).getTime(),
+    // Calcular la cuenta atrás
+    const countDown = eventDate.getTime(),
         x = setInterval(function() {
-
             const now = new Date().getTime(),
                 distance = countDown - now;
 
-            document.getElementById("days").innerText = Math.floor(distance / (day)),
-                document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-                document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-                document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+            document.getElementById("days").innerText = Math.floor(distance / day);
+            document.getElementById("hours").innerText = Math.floor((distance % day) / hour);
+            document.getElementById("minutes").innerText = Math.floor((distance % hour) / minute);
+            document.getElementById("seconds").innerText = Math.floor((distance % minute) / second);
 
-            //do something later when date is reached
+            // Si la fecha ha llegado
             if (distance < 0) {
-                document.getElementById("headline").innerText = "Es la fecha de PyconES GRX!";
+                document.getElementById("headline").innerText = "¡El evento ha comenzado!";
                 document.getElementById("countdown").style.display = "none";
                 document.getElementById("content").style.display = "block";
                 clearInterval(x);
             }
-            //seconds
-        }, 0)
+        }, 1000);
 }());
