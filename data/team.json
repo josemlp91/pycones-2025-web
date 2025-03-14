@@ -44,5 +44,49 @@
             {"name": "attendes squad", "color": "is-info"}
         ],
         "twitter": "https://twitter.com/SrtSanz_"
+    },
+    {
+        "name": "Sergio Soto Núñez",
+        "avatar": "/theme/images/organizers/soto.jpeg",
+        "tags": [
+            {"name": "Python Sevilla", "color": "is-danger"},
+            {"name": "web squad", "color": "is-info"}
+        ],
+        "position": "Ingeniero y activista digital",
+
+        "github": "https://github.com/ssoto",
+        "bluesky": "https://bsky.app/profile/serhiosoto.bsky.social",
+        "linkedin": "https://www.linkedin.com/in/sergiosotonunez/"
+    },
+    {
+        "name": "Lucía Lobato Salas",
+        "avatar": "",
+        "tags": [
+            {"name": "Python Sevilla", "color": "is-danger"},
+            {"name": "RRSS squad", "color": "is-info"}
+        ],
+        "position": "",
+        "linkedin": "http://www.linkedin.com/in/LuciaLS"
+    },
+    {
+        "name": "Ana Rey",
+        "avatar": "/theme/images/organizers/anarey.jpeg",
+        "tags": [
+            {"name": "Python Sevilla", "color": "is-danger"},
+            {"name": "web squad", "color": "is-info"}
+        ],
+        "position": "Software Developer",
+
+        "github": "https://github.com/anarey",
+        "bluesky": "https://web-cdn.bsky.app/profile/anarey.bsky.social",
+        "linkedin": "https://es.linkedin.com/in/anareyb"
+    },
+    {
+        "name": "Jaime Jiménez",
+        "avatar": "",
+        "tags": [
+            {"name": "Python Sevilla", "color": "is-danger"},
+            {"name": "RRSS squad", "color": "is-info"}
+        ]
     }
 ]
