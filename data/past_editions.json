@@ -46,17 +46,17 @@
     },
     {
         "name": "PyConES 2022 - Granada",
-        "logo": "/theme/images/past_editions/2022.svg",
+        "logo": "/theme/images/past_editions/2022.png",
         "url": "https://2023.es.pycon.org/"
     },
     {
         "name": "PyConES 2023 - Canarias",
-        "logo": "/theme/images/past_editions/2023.svg",
+        "logo": "/theme/images/past_editions/2023.png",
         "url": "https://2023.es.pycon.org/"
     },
     {
         "name": "PyConES 2024 - Vigo",
-        "logo": "/theme/images/past_editions/2024.svg",
+        "logo": "/theme/images/past_editions/2024.png",
         "url": "https://2024.es.pycon.org/"
     }
 
