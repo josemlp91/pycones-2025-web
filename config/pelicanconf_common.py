@@ -41,6 +41,7 @@ MENUITEMS_NAVBAR = {
     "Mapa": "/pages/mapa.html",
 }
 
+
 if ENABLED_SPEAKERS:
     MENUITEMS_NAVBAR["Ponentes"] = "/keynoters.html"
 
