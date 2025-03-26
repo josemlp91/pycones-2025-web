@@ -32,7 +32,7 @@ EMAIL_LINK = "mailto:contacto@2025.es.pycon.org"
 LINKEND_LINK = "https://es.linkedin.com/company/python-espa%C3%B1a?trk=public_post_feed-actor-name"
 TELEGRAM_LINK = None
 INSTAGRAM_LINK = "https://www.instagram.com/pycon_es/"
-BLUESKY = None
+BLUESKY_LINK = "https://web-cdn.bsky.app/profile/did:plc:irbbd7hhbmqhoklzmlfx2sju"
 MASTODON_LINK = "https://fosstodon.org/@pycones"
 
 TICKETS_LINK = "https://pycones2025.eventbrite.es"

@@ -20,50 +20,69 @@
                 <div class="column">
                     <h4 class="title is-4">Síguenos en redes</h4>
                     <div class="level is-mobile">
-                        {% if GITHUB_LINK %}
-                        <div class="level-item">
-                            <a href="{{ GITHUB_LINK }}" class="button is-medium" target="_blank" aria-label="github">
-                              <span class="icon">
-                                <i class="fab fa-github fa-lg"></i>
-                              </span>
-                            </a>
-                        </div>
-                        {% endif %}
+                        <!-- Icon Buttons REDES sociales -->
                         {% if EMAIL_LINK %}
-                        <div class="level-item">
                             <a href="{{ EMAIL_LINK }}" class="button is-medium" target="_blank" aria-label="email">
-                              <span class="icon">
+                            <span class="icon">
                                 <i class="fas fa-envelope fa-lg"></i>
-                              </span>
+                            </span>
                             </a>
-                        </div>
                         {% endif %}
                         {% if TWITTER_LINK %}
-                        <div class="level-item">
                             <a href="{{ TWITTER_LINK }}" class="button is-medium" target="_blank" aria-label="twitter">
-                              <span class="icon">
+                                <span class="icon">
                                 <i class="fab fa-twitter fa-lg"></i>
-                              </span>
+                                </span>
                             </a>
-                        </div>
                         {% endif %}
                         {% if YOUTUBE_LINK %}
-                        <div class="level-item">
                             <a href="{{ YOUTUBE_LINK }}" class="button is-medium" target="_blank" aria-label="youtube">
-                              <span class="icon">
+                                <span class="icon">
                                 <i class="fab fa-youtube fa-lg"></i>
-                              </span>
+                                </span>
                             </a>
-                        </div>
+                        {% endif %}
+                        {% if GITHUB_LINK %}
+                            <a href="{{ GITHUB_LINK }}" class="button is-medium" target="_blank" aria-label="github">
+                                <span class="icon">
+                                <i class="fab fa-github fa-lg"></i>
+                                </span>
+                            </a>
+                        {% endif %}
+                        {% if LINKEND_LINK %}
+                            <a href="{{ LINKEND_LINK }}" class="button is-medium" target="_blank" aria-label="linkenin">
+                                <span class="icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                                </span>
+                            </a>
+                        {% endif %}
+                        {% if MASTODON_LINK %}
+                        <a href="{{ MASTODON_LINK }}" class="button is-medium" target="_blank" aria-label="mastodon">
+                            <span class="icon">
+                            <i class="fab fa-mastodon fa-lg"></i>
+                            </span>
+                        </a>
+                        {% endif %}
+                        {% if INSTAGRAM_LINK %}
+                        <a href="{{ INSTAGRAM_LINK }}" class="button is-medium" target="_blank" aria-label="instagram">
+                            <span class="icon">
+                            <i class="fab fa-instagram fa-lg"></i>
+                            </span>
+                        </a>
+                        {% endif %}
+                        {% if BLUESKY_LINK %}
+                        <a href="{{ BLUESKY_LINK }}" class="button is-medium" target="_blank" aria-label="instagram">
+                            <span class="icon">
+                            <i class="icon-bluesky"></i>
+                            </span>
+                        </a>
                         {% endif %}
                         {% if TELEGRAM_LINK %}
-                        <div class="level-item">
                             <a href="{{ TELEGRAM_LINK }}" class="button is-medium" target="_blank" aria-label="telegram">
                               <span class="icon">
                                   <i class="fab fa-telegram"></i>
                               </span>
                             </a>
-                        </div>
                         {% endif %}
                     </div>
                 </div>
