@@ -60,7 +60,7 @@
     },
     {
         "name": "Lucía Lobato Salas",
-        "avatar": "",
+        "avatar": "/theme/images/organizers/default.png",
         "tags": [
             {"name": "Python Sevilla", "color": "is-danger"},
             {"name": "RRSS squad", "color": "is-info"}
@@ -83,7 +83,7 @@
     },
     {
         "name": "Jaime Jiménez",
-        "avatar": "",
+        "avatar": "/theme/images/organizers/default.png",
         "tags": [
             {"name": "Python Sevilla", "color": "is-danger"},
             {"name": "RRSS squad", "color": "is-info"}
