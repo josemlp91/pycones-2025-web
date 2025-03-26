@@ -36,6 +36,11 @@
                     <span class="icon is-small"><i class="fab fa-linkedin"></i></span>
                 </a>
                 {% endif %}
+                {% if member.bluesky %}
+                <a href="{{member.bluesky}}" target="_blank" class="button">
+                    <span class="icon is-small"><i class="fab fa-bluesky"></i></span>
+                </a>
+                {% endif %}
             </div>
         </div>
     </div>
