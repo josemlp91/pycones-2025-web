@@ -14,11 +14,13 @@ Summary: Cómo llegar a Sevilla
 - 🚗 **Coche**: Viajar en coche ofrece flexibilidad para explorar diferentes lugares en el camino. La ruta más común desde el norte implica tomar autopistas como la **AP-68**, **A-66** o similares, dependiendo del punto de origen, y luego conectar con la **A-4** hacia Sevilla. Es un viaje largo que requiere planificación de paradas.
 
 ## **Si vienes del Sur**
+- ✈️ **Avion**: **Málaga (AGP)**, **Gran Canaria (LPA)**, **Tenerife (TFN/TFS)** y otras islas Canarias tienen vuelos directos al Aeropuerto de Sevilla (SVQ).
 - 🚆  **Tren**: Existe la posibilidad de llegar a Sevilla usando **Trenes de Alta Velocidad (AVE)** desde ciudades como **Málaga**, **Cádiz** y **Huelva**, el AVE ofrece una conexión rápida y eficiente a la estación de Sevilla **Santa Justa**. Tambien Existen **Trenes regionales y de cercanías** que conectan diversas poblaciones del sur con Sevilla, aunque suelen ser más lentos que el AVE.
 - 🚌 **Autobús**: Es una opción muy común y con buena frecuencia de servicio. Compañías como **ALSA** y otras conectan prácticamente todas las ciudades y pueblos del sur con Sevilla.
 - 🚗 **Coche**: Dada la proximidad, viajar en coche es muy habitual y cómodo. Las carreteras están bien mantenidas, y las distancias suelen ser cortas. Por ejemplo, desde Málaga se toma la **A-92**, y desde Cádiz la **AP-4**.
 
 ## **Si vienes del Este**
+- ✈️ **Avion**: Los areropuertos de **Alicante**, **Barcelona**, **Palma de Mallorca** y **Valencia** tienen vuelos directos a Sevilla, aerolineas como **Vueling**, **Ryanair** e **Iberia** operan en estos trayectos periódicamente.
 - 🚆  **Tren**: Ciudades importantes como Barcelona, Valencia, Alicante y Murcia tienen conexiones directas o con una escala en Madrid con **Tren de Alta Velocidad (AVE)**  que llega a Sevilla. La conexión desde Barcelona es directa y una de las más populares.
 - 🚌 **Autobús**: Varias compañías de autobuses, como **ALSA**, ofrecen rutas desde las principales ciudades del este hacia Sevilla. El viaje puede ser largo, especialmente desde **Barcelona**.
 - 🚗 **Coche**: Viajar en coche desde el este implica tomar autopistas como la **AP-7** (desde la costa catalana y valenciana) que conecta con la **A-4** o la **A-92** hacia Sevilla, dependiendo de la ruta elegida.
