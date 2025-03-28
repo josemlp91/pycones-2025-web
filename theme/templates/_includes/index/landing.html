@@ -64,20 +64,20 @@
                         </span>
                       </a>
                   {% endif %}
-                  {% if MASTODON_LINK %}
-                  <a href="{{ MASTODON_LINK }}" class="button is-medium" target="_blank" aria-label="mastodon">
+                  {% if INSTAGRAM_LINK %}
+                     <a href="{{ INSTAGRAM_LINK }}" class="button is-medium" target="_blank" aria-label="instagram">
+                      <span class="icon">
+                         <i class="fab fa-instagram fa-lg"></i>
+                     </span>
+                    </a>
+                   {% endif %}
+                   {% if BLUESKY_LINK %}
+                   <a href="{{ BLUESKY_LINK }}" class="button is-medium" target="_blank" aria-label="bluesky">
                     <span class="icon">
-                      <i class="fab fa-mastodon fa-lg"></i>
-                    </span>
+                       <i class="icon-bluesky"></i>
+                   </span>
                   </a>
-              {% endif %}
-              {% if INSTAGRAM_LINK %}
-              <a href="{{ INSTAGRAM_LINK }}" class="button is-medium" target="_blank" aria-label="instagram">
-                <span class="icon">
-                  <i class="fab fa-instagram fa-lg"></i>
-                </span>
-              </a>
-          {% endif %}
+                 {% endif %}
 
             </div>
         </div>
