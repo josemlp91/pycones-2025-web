@@ -88,5 +88,28 @@
             {"name": "Python Sevilla", "color": "is-danger"},
             {"name": "RRSS squad", "color": "is-info"}
         ]
+    },
+    {
+        "name": "Luis Mesa",
+        "avatar": "/theme/images/organizers/luismesa.jpeg",
+        "position": "Ingeniero de Software y Profesor",
+        "github": "https://github.com/luismesalas",
+        "linkedin": "https://www.linkedin.com/in/mesa/",
+        "tags": [
+            {"name": "Python Sevilla", "color": "is-danger"},
+            {"name": "institutional relationships", "color": "is-info"}
+        ]
+    },
+    {
+        "name": "Manuel Jesús Flores Montaño",
+        "avatar": "/theme/images/organizers/manueljesus.jpeg",
+        "position": "Full-Stack Dev en Avanade, Ingeniero Informático en Sistemas de Información",
+        "github": "https://github.com/manueljesus00",
+        "bluesky": "https://bsky.app/profile/manueljesus00.bsky.social",
+        "linkedin": "https://www.linkedin.com/in/manueljesus00/",
+        "tags": [
+            {"name": "Asociación ESOLIUPO", "color": "is-danger"},
+            {"name": "infraestructure", "color": "is-info"}
+        ]
     }
 ]

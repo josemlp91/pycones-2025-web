@@ -3,5 +3,10 @@
         "name": "Python España",
         "logo": "/theme/images/organizers/python_espagna.png",
         "url": "https://es.python.org/"
+    },
+    {
+        "name": "Universidad Pablo Olavide",
+        "logo": "/theme/images/organizers/pablo_olavide_padded.png",
+        "url": "https://es.python.org/"
     }
 ]

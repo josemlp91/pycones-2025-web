@@ -5,7 +5,7 @@
 
 # Habilita el modo landing-page de la web,
 # para poder tener una presentación reducida o completa de la web.
-LANDING_MODE = True
+LANDING_MODE = False
 
 # Habilita links a la tienda de las entradas del evento.
 ENABLED_TICKETS = False
@@ -47,13 +47,13 @@ ENABLED_PAST_EDITIONS = True
 ENABLED_LOCATION = True
 
 # Habilita el timeline del evento
-ENABLED_TIMELINE = True
+ENABLED_TIMELINE = False
 
 # Habilita página de ofertas de trabajo
-ENABLED_JOBS = True
+ENABLED_JOBS = False
 
 # Habilita la sección del programa en la página principal
-ENABLED_SCHEDULE_INFO = True
+ENABLED_SCHEDULE_INFO = False
 
 # Habilita sección con la información de Twitter
 ENABLED_TWITTER = False

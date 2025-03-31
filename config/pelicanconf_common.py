@@ -41,8 +41,7 @@ MENUITEMS_NAVBAR = {
         "UPO": "/pages/upo.html"
     },
     "Organización": {"Equipo": "/organizers.html"},
-    "Código de Conducta": "/pages/code-of-conduct.html",
-    "Mapa": "/pages/mapa.html",
+    "Código de Conducta": "/pages/code-of-conduct.html"
 }
 
 
