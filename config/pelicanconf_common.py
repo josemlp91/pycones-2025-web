@@ -35,7 +35,11 @@ DIRECT_TEMPLATES = [
 ]
 
 MENUITEMS_NAVBAR = {
-    "La ciudad": {"Sevilla": "/pages/sevilla.html", "UPO": "/pages/upo.html"},
+    "La ciudad": {
+        "Sevilla": "/pages/sevilla.html",
+        "Cómo llegar": "/pages/how-to-arrive.html",
+        "UPO": "/pages/upo.html"
+    },
     "Organización": {"Equipo": "/organizers.html"},
     "Código de Conducta": "/pages/code-of-conduct.html",
     "Mapa": "/pages/mapa.html",
