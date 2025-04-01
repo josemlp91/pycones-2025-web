@@ -69,8 +69,7 @@ WALLPAPERS = [
 
 SELECTED_WALLPAPER = random.choice(WALLPAPERS)
 
-EVENT_START_DATE_STR = "Del 17 de Octubre"
-EVENT_END_DATE_STR = "el 19 de Octubre"
+EVENT_DATE_STR = "Los días 17, 18 y 19 de octubre."
 
 EVENT_WARNINGS = [
     # {
