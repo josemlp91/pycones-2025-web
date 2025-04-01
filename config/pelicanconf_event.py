@@ -31,15 +31,17 @@ Forma parte de la mayor conferencia nacional de Python, donde cientos de entusia
 🎟️ ¡No te lo pierdas! Únete a la revolución Python en PyConES. ¡Te esperamos!
 """
 
-TWITTER_LINK = "https://x.com/PyConEs"
+
 YOUTUBE_LINK = "https://www.youtube.com/PythonEspa%C3%B1aOficial"
 GITHUB_LINK = "https://github.com/python-spain"
 EMAIL_LINK = "mailto:contacto@2025.es.pycon.org"
 LINKEND_LINK = "https://es.linkedin.com/company/python-espa%C3%B1a?trk=public_post_feed-actor-name"
-TELEGRAM_LINK = None
+
 INSTAGRAM_LINK = "https://www.instagram.com/pycon_es/"
 BLUESKY_LINK = "https://web-cdn.bsky.app/profile/did:plc:irbbd7hhbmqhoklzmlfx2sju"
-# MASTODON_LINK = "https://fosstodon.org/@pycones"
+MASTODON_LINK = None
+TELEGRAM_LINK = None
+TWITTER_LINK = None
 
 TICKETS_LINK = "https://pycones2025.eventbrite.es"
 CALL_FOR_PAPERS_LINK = "https://charlas.2025.es.pycon.org/pycones2022/cfp"
