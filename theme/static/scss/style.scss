@@ -44,8 +44,12 @@ $grey--medium: #e5e0de;
   font-display: swap;
 }
 
-.hero-body {
+.hero.is-warning {
   color: white;
+}
+
+.hero-body.darktext {
+  color: $pycon-dark-blue;
 }
 
 .hero.is-link .title{

@@ -67,13 +67,15 @@
 					{% include "_includes/index/timeline.html" %}
 				{% endif %}
 
+				{% if ENABLED_CALL_FOR_SPONSORS %}
+					{% include "_includes/index/call_for_sponsors.html" %}
+				{% endif %}
+
 				{% if ENABLED_LOCATION %}
 					{% include "_includes/index/location.html" %}
 				{% endif %}
 
-				{% if ENABLED_CALL_FOR_SPONSORS %}
-					{% include "_includes/index/call_for_sponsors.html" %}
-				{% endif %}
+
 
 				{% if ENABLED_SPONSORSHIPS %}
 					{% include "_includes/index/sponsorship.html" %}

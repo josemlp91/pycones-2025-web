@@ -45,12 +45,12 @@ TWITTER_LINK = None
 
 TICKETS_LINK = "https://pycones2025.eventbrite.es"
 CALL_FOR_PAPERS_LINK = "https://charlas.2025.es.pycon.org/pycones2022/cfp"
-SPONSORS_DOSSIER_ES = "/theme/files/dosier_patrocinio_2025_es.pdf"
-SPONSORS_DOSSIER_EN = "/theme/files/dosier_patrocinio_2025_en.pdf"
+SPONSORS_DOSSIER_ES = "/theme/files/[ES]PyConES25.pdf"
+SPONSORS_DOSSIER_EN = "/theme/files/[EN]PyConES25.pdf"
 
 # https://google-map-generator.com/
 MAP_IFRAME_LINK = (
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3435.750650979095!2d-5.939984388292738!3d37.35524047197774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126fada8bb9993%3A0xf1425beda6074232!2sUniversidad%20Pablo%20de%20Olavide%20Sevilla!5e1!3m2!1ses!2ses!4v1743432763703!5m2!1ses!2ses"
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3435.750650979095!2d-5.939984388292738!3d37.35524047197774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126fada8bb9993%3A0xf1425beda6074232!2sUniversidad%20Pablo%20de%20Olavide%20Sevilla!5e0!3m2!1ses!2ses!4v1743432763703!5m2!1ses!2ses"
 )
 
 # https://cookie-bar.eu/
