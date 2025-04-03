@@ -26,7 +26,7 @@ ENABLED_SPONSORSHIPS = False
 ENABLED_FINANCIAL_AID = False
 
 # Habilita bloque con llamamiento a patrocinadores
-ENABLED_CALL_FOR_SPONSORS = False
+ENABLED_CALL_FOR_SPONSORS = True
 
 # Habilita la vista del calendario del evento.
 ENABLED_TIMETABLE = False
