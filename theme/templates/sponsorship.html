@@ -1,16 +1,529 @@
-{% extends "base.html" %}
+{% extends "base.html"%}
 
 {% block title %}{{ SITENAME|striptags|e }} - Sponsorship {% endblock title %}
 
-
 {% block content %}
+
+
 <section class="section">
   <div class="container">
     {% include "_includes/index/sponsorship.html" %}
+  </div>
 
-    {% if ENABLED_CALL_FOR_SPONSORS %}
-        {% include "_includes/index/call_for_sponsors.html" %}
-    {% endif %}
+  <div class="container">
+    Consulta los diferentes planes de patrocinio y las ventajas que incluye cada uno. <br>
+    Conviértete en patrocinador y aprovecha todas las ventajas que hemos preparado para ti. <br>
+    <strong>Aquí te mostramos un resumen de los distintos planes.</strong>
+
+    <hr>
+    <h3 class="title is-3">Clasificación planes </h2>
+    
+    <div class="overflow-x-auto relative">
+      <table class="mt-5 w-full border border-white table-auto">
+        <thead class="text-white">
+          <tr style="background-color: #05007A" class="border-white">
+            <th class="bg-white"></th>
+            <th class="text-center border-white" colspan="4">Niveles<sup class="text-white">(1)</sup></th>
+          </tr>
+          <tr style="background-color: #05007A;" class="border-white">
+            <th class=" text-left border border-white">Beneficios</th>
+            <th class="border border-white">Pan de Oro</th>
+            <th class="border border-white">Plata Fina</th>
+            <th class="border border-white">Cielo de Farolillos</th>
+            <th class="border border-white">Incienso</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Precio</td>
+            <td class="text-center border border-black">6.000 €</td>
+            <td class="text-center border border-black">4.500 €</td>
+            <td class="text-center border border-black">3.200 €</td>
+            <td class="text-center border border-black">1.000 €</td>
+          </tr>
+          <tr class="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Entradas incluídas<sup>(2)</sup></td>
+            <td class="text-center border border-black">6</td>
+            <td class="text-center border border-black">4</td>
+            <td class="text-center border border-black">2</td>
+            <td class="text-center border border-black">1</td>
+          </tr>
+          <tr class="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Logo en web</td>
+            <td class="border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+          </tr>
+          <tr class="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Obsequio en welcome pack</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+          </tr>
+          <tr class="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Add-ons</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+          </tr>
+          <tr class="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Publicaciones en RRSS</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+          </tr>
+          <tr class="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Logo en cartelería</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr class="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Stand<sup>(3)</sup></td>
+            <td class="text-center border border-black">3m x 1.5m</td>
+            <td class="text-center border border-black">2m x 1.5m</td>
+            <td class="text-center border border-black">2m x 1.50 m</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Ofertas de trabajo</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Logo newsletter<sup>(4)</sup></td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Nota de prensa<sup>(4)</sup></td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Anuncio en programa</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Charla patrocinada</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Logo en pausas</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Folleto en welcome pack</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Agradecimiento en vivo</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Taller patrocinado</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                ✅
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+          <tr cl1ass="bg-white">
+            <td class="font-bold border border-black" style="color: #05007A">Video promocional</td>
+            <td class="text-center border border-black">varias veces en el fin de semana </td>
+            <td class="text-center border border-black">1 vez en el fin de semana</td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+            <td class="text-center border border-black">
+              <div style="display: flex; justify-content: center;">
+                🚫
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br><br>
+    <span style="font-size: 14px;">
+      <li>La cantidad de patrocinios es limitada (excepto de nivel Incienso).
+         La organización se reserva el derecho de modificar dicha cantidad a conveniencia, siempre velando por los intereses de la conferencia. </li>
+         <li>Aparición en soportes físicos impresos supeditada a la producción de los mismos.</li>
+    </span>
+  </div>
+
+
+
+  <div class="container">
+    <hr>
+    <h3 class="title is-3">Add-Ons </h2>
+    <table class="border border-white table-auto">
+      <thead class="text-white">
+        <tr style="background-color: #05007A" class="border-white">
+          <th class="text-left border border-white">Add-on</th>
+          <th class="text-left border border-white">Descripción</th>
+          <th class="border border-white">Precio</th>
+          <th class="border border-white">Cantidad</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Patrocinar Salas</td>
+          <td class="border border-black">¡El nombre de tu empresa junto al de la sala! Añade roll-ups y elementos que
+            te den mayor visibilidad</td>
+          <td class="text-center border border-black">1.000 €</td>
+          <td class="text-center border border-black">3</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Patrocinar Paraninfo</td>
+          <td class="border border-black">¡Consigue una gran visibilidad patrocinando el track principal, donde se cuece
+            toda la acción!</td>
+          <td class="text-center border border-black">2.000 €</td>
+          <td class="text-center border border-black">1</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Coffee Breaks</td>
+          <td class="border border-black">La organización pone el café, ¡vosotros la imagen!
+            Decorad las mesas, añadid vuestros logos y ganad un
+            espacio especial en los momentos de mayor necesidad.</td>
+          <td class="text-center border border-black">1000 €</td>
+          <td class="text-center border border-black">1 sábado / 1 domingo</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Patrocinar Streaming</td>
+          <td class="border border-black">¡Añade tu logotipo a todas las transmisiones en directo que se hagan!</td>
+          <td class="text-center border border-black">500 €</td>
+          <td class="text-center border border-black">4 sábado / 4 domingo</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Patrocinar becas</td>
+          <td class="border border-black">Mención especial durante la presentación de inicio, y
+            sitio web con la cantidad de becas que están
+            auspiciando</td>
+          <td class="text-center border border-black">300 €</td>
+          <td class="text-center border border-black">7</td>
+        </tr>
+        <tr class="bg-primary/15">
+          <td class="font-bold border border-black" style="color: #05007A">Ludoteca</td>
+          <td class="border border-black">Logotipo y mención durante el opening del evento y sitio
+            web.</td>
+          <td class="text-center border border-black">500 €</td>
+          <td class="font-semibold text-center border border-black text-primary">1</td>
+        </tr>
+        <tr class="bg-primary/15">
+          <td class="font-bold border border-black" style="color: #05007A">Sala Lactancia</td>
+          <td class="border border-black">Logo en un rollup fuera de la sala, anunció en el sitio
+            web y charla de inicio de conferencia.</td>
+          <td class="text-center border border-black">500 €</td>
+          <td class="font-semibold text-center border border-black text-primary">1</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Hackathon</td>
+          <td class="border border-black">La empresa propone una idea de hackathon - nosotros
+            nos encargamos de los premios y de buscar a la gente!</td>
+          <td class="text-center border border-black">1000 €</td>
+          <td class="text-center border border-black">1</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Taller Django Girls</td>
+          <td class="border border-black">Roll-ups y agradecimiento a las empresas patrocinadores</td>
+          <td class="text-center border border-black">1500 €</td>
+          <td class="text-center border border-black">2</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Concierto</td>
+          <td class="border border-black">¿Apasionado por la música? Nosotros también.
+            Conviértete en nuestro patrocinador y haz posible un
+            concierto inolvidable. Destaca tu marca colocando tus
+            roll-ups en el epicentro del evento, cuando la emoción
+            esté en su punto más alto</td>
+          <td class="text-center border border-black">500 €</td>
+          <td class="text-center border border-black">1</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Charla patrocinada</td>
+          <td class="border border-black">Sé el patrocinador de una charla y lleva tu mensaje a la
+            audiencia adecuada. Destaca tu marca en un espacio
+            de intercambio de ideas y conocimiento</td>
+          <td class="text-center border border-black">1700 €</td>
+          <td class="text-center border border-black">2</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Stand pequeño</td>
+          <td class="border border-black">Mejora o consigue un stand pequeño para tu nivel de
+            patrocinio</td>
+          <td class="text-center border border-black">800 €</td>
+          <td class="text-center border border-black">2</td>
+        </tr>
+        <tr class="bg-white">
+          <td class="font-bold border border-black" style="color: #05007A">Stand grande</td>
+          <td class="border border-black">Mejora o consigue el stand asignado en tu nivel de
+            patrocinio a uno más grande</td>
+          <td class="text-center border border-black">1200 €</td>
+          <td class="text-center border border-black">4</td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br>
+    <span style="font-size: 14px;">
+      <li>Sujeta a disponibilidad - las empresas que no tengan stand podrán adquirir uno. Las empresas que ya tengan stand
+        solo tendrán la capacidad de conseguir uno más grande.</li>
+    </span>
   </div>
 </section>
 {% endblock content %}
