@@ -400,3 +400,47 @@ div.column.is-8:first-child {
   padding-top: 85px;
   padding-bottom: 85px;
 }
+
+.text-center {
+  text-align: center !important;
+}
+
+.border {
+  padding: 10px;
+  border-width: 1px;
+  min-width: 75px;
+}
+
+.border-black {
+  border: 1px solid black;
+  color: black;
+}
+
+.border-white {
+  color: white;
+  border: 1px solid white;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
