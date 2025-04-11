@@ -6,16 +6,6 @@
         "size_schedule": "500px",
         "order": 1,
         "members": [
-            {
-                "name": "PSF",
-                "photo": "/theme/images/sponsors/psf.png",
-                "url": "https://www.python.org/psf/"
-            },
-            {
-                "name": "Euro Python",
-                "photo": "/theme/images/sponsors/europython.png",
-                "url": "https://www.europython-society.org/"
-            }
         ]
     },
     {
